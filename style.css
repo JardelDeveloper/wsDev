@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+body {
+    background: #e5e5e5;
+    color: #25282b;
+    text-align: center;
+}
+
+button {
+    color: #ff5E84;
+    background: none;
+    border: none;
+    font-weight: bold;
+}
+
+button.fat {
+    color: #fff;
+    background: #ff5E84;
+}
+
+#footer a {
+    color: #25282B;
+    text-decoration: none;
+}
+
+.hide {
+    display: none;
+}
