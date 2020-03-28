@@ -1,70 +1,70 @@
 <!-- By: Jardel Cunha -->
 <!DOCTYPE html>
 <html lang="pt-br" xmlns="https://www.w3.org/1999/xhtml">
-<head>
-    <!-- Required meta tags -->
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <!-- Title tag -->
-    <title>WorkshopDev</title>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <!-- Title tag -->
+        <title>WorkshopDev</title>
 
-    <style>
-        body {
-            background: #e5e5e5;
-            color: #25282b;
-            text-align: center;
-        }
+        <style>
+            body {
+                background: #e5e5e5;
+                color: #25282b;
+                text-align: center;
+            }
 
-        button {
-            color: #ff5E84;
-            background: none;
-            border: none;
-            font-weight: bold;
-        }
+            button {
+                color: #ff5E84;
+                background: none;
+                border: none;
+                font-weight: bold;
+            }
 
-        button.fat {
-            color: #fff;
-            background: #ff5E84;
-        }
+            button.fat {
+                color: #fff;
+                background: #ff5E84;
+            }
 
-        #footer a {
-            color: #25282B;
-            text-decoration: none;
-        }
+            #footer a {
+                color: #25282B;
+                text-decoration: none;
+            }
 
-        .hide {
-            display: none;
-        }
-    </style>
-</head>
-<body>
-    <img src="logo.png" alt="imagem da logomarca"/>
-    <p>
-        Ficar em casa em períodos longos, não deve ser nada fácil. 
-    </p>
-    <p>        
-        Por isso, iremos catalogar ideias, <strong>brincadeiras, jogos, filmes, livros, cursos, dicas
-        </strong> e tudo que for necessário para tornar esse momento mais interessantwe.
-    </p>
-    <p>
-        Comece clicando em ver ideias para ver ideias cadastradas e contribua adicionando a sua ideia
-    </p>
+            .hide {
+                display: none;
+            }
+        </style>
+    </head>
+    <body>
+        <img src="logo.png" alt="imagem da logomarca"/>
+        <p>
+            Ficar em casa em períodos longos, não deve ser nada fácil. 
+        </p>
+        <p>        
+            Por isso, iremos catalogar ideias, <strong>brincadeiras, jogos, filmes, livros, cursos, dicas
+            </strong> e tudo que for necessário para tornar esse momento mais interessantwe.
+        </p>
+        <p>
+            Comece clicando em ver ideias para ver ideias cadastradas e contribua adicionando a sua ideia
+        </p>
 
-    <button>+ Adicionar ideia</button>
-    <button class="fat">Ver ideias</button>
+        <button>+ Adicionar ideia</button>
+        <button class="fat">Ver ideias</button>
 
-    <p id="footer">Com <span style="color: red;">❤ </span><a href="https://rocketseat.com.br/">Rockseat</a></p>
+        <p id="footer">Com <span style="color: red;">❤ </span><a href="https://rocketseat.com.br/">Rockseat</a></p>
 
-    <script>
-         document.querySelector("button.fat")
-            .addEventListener("click",
-                function(){
-                    document
-                        .querySelector("#footer")
-                        .classList
-                        .toggle("hide")
-                }
-            ) 
-    </script>
-</body>
+        <script>
+            document.querySelector("button.fat")
+                .addEventListener("click",
+                    function(){
+                        document
+                            .querySelector("#footer")
+                            .classList
+                            .toggle("hide")
+                    }
+                ) 
+        </script>
+    </body>
 </html>
