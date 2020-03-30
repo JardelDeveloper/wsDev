@@ -6,6 +6,10 @@ body {
     margin: 0;
 }
 
+.hide {
+    display: none;
+}
+
 #container {
     width: 90%;
     max-width: 980px;
@@ -55,16 +59,12 @@ footer {
     text-align: center;
 }
 
-footer a {
-    color: #25282B;
+a {
+    color: #ff5E84;
+    font-weight: bold;
     text-decoration: none;
 }
 
-footer a:hover {
-    color: #ff5E84;
-    font-weight: bold;
-}
-
-.hide {
-    display: none;
+a:hover {
+    text-decoration: underline;
 }
