@@ -72,6 +72,7 @@ a:hover {
 .idea {
     display: flex;
     background-color: #fff;
+    box-shadow: 0 4px 16px -8px rgba(1, 1, 1, .1);
     border-radius: 8px;
     margin-bottom: 32px;
     padding: 32px;
@@ -86,3 +87,12 @@ a:hover {
  .idea h3 {
      margin: 0;
  }
+
+ .idea p {
+    margin: 8px 0;
+    color: #777;
+ }
+
+ .idea .description {
+    margin: 16px 0;
+}
