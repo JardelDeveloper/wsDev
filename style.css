@@ -1,8 +1,10 @@
 @charset "utf-8";
 
 body {
+
     background: #e5e5e5;
     color: #25282b;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
 }
 
