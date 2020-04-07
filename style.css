@@ -12,6 +12,12 @@ body {
     display: none;
 }
 
+p, .description {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+
 #container {
     width: 90%;
     max-width: 980px;
@@ -32,7 +38,10 @@ button {
     background: none;
     color: #ff5E84;
     border: none;
+    font-size: 14px;
     font-weight: bold;
+    line-height: 18px;
+    letter-spacing: 0.2px;
     cursor: pointer;
     outline: none;
 }
